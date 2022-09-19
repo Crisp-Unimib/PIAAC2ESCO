@@ -1,10 +1,7 @@
 # PIAAC2ESCO - An AI-driven classification of the PIAAC Background questionnaire onto the ESCO Skills Pillar
 
-
-{{TOC}}
-
 ## What is PIAAC2ESCO?
-PIAAC2ESCO provides a characterisation of the [PIAAC background questionnaire](https://www.oecd-ilibrary.org/sites/53c2f904-en/index.html?itemId=/content/component/53c2f904-en) on the base of the [ESCO Skills Pillar](https://esco.ec.europa.eu/en/escopedia/skills-pillar). In practice it associates a list of ESCO skills (v1) to questions of the PIAAC background questionnaire (version 2010), based on their similarity. We use the section F to I of the PIAAC background questionnaire, from which we select the relevant questions (73 questions out of 84 questions) and all the ESCO skills (13600 items).
+PIAAC2ESCO provides a characterisation of the [PIAAC background questionnaire](https://www.oecd-ilibrary.org/sites/53c2f904-en/index.html?itemId=/content/component/53c2f904-en) on the base of the [ESCO Skills Pillar](https://esco.ec.europa.eu/en/escopedia/skills-pillar). In practice it associates a list of ESCO skills (v1) to questions of the PIAAC background questionnaire (version 2010), based on their similarity. We use the section F to I of the PIAAC background questionnaire, from which we select the relevant questions (73 questions out of 84) and all the ESCO skills (13600 items).
 
 ## How does PIAAC2ESCO work?
 The linkage is done using AI in a framework that combines various methods: embeddings, selection of the best embedding and taxonomy alignment (Giabelli et al, 2022)[^The framework designed in WETA (Web Taxonomy Embedding Alignment) relies on distributional semantic and context information to perform taxonomy alignment, blending a hierarchical approach based on cosine similarity and a machine learning classification task that uses the embeddings as input features. Moreover, it performs an intrinsic evaluation of the selected embedding model based on the structure of the taxonomy itself.] and experts' validation.
@@ -23,8 +20,8 @@ The dataset is made of the following variables:
 |PIAAC_QuestionDescription| PIAAC question Label |
 |ESCOskill| Associated ESCO skill |
 
-
 ## Use cases
+
 
 ## References
 [Giabelli, A., Malandri, L., Mercorio, F., & Mezzanzanica, M. (2022). WETA: Automatic taxonomy alignment via word embeddings. Computers in Industry, 138, 103626.](https://www.sciencedirect.com/science/article/pii/S0166361522000215)
