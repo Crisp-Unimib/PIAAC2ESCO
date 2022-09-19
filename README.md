@@ -18,19 +18,13 @@ The dataset is made of the following variables:
 | Variable name | Description |
 |:--|:--|
 |Isco_Level_2 | ISCO08 Sub-major group occupation Name |
-|preferredLabel| ISCO08 Sub-major group occupation Label|
-|Question Id| PIAAC question Name |
-|Question Description| PIAAC question Label |
+|Isco_Level_2_preferredLabel| ISCO08 Sub-major group occupation Label|
+|PIAAC_QuestionId| PIAAC question Name |
+|PIAAC_QuestionDescription| PIAAC question Label |
+|ESCOskill| Associated ESCO skill |
 
 
 ## Use cases
-
-
-## @ Notes - temp
-
-The proposal presented in this research advances a new methodology. But its purpose is much wider, though.  In a fast-developing field of research, the scientific community must lay down the soundest principles on which to develop its enterprises. 
-One of the main issues in our society is the increasing value of data and the decreasing value of theories to explain them. 
-Indeed, new research in the field is currently based on privately produced data, which lack accountability in terms of full disclosure of the methodology with which they are produced. This fact impinges on the possibility to replicate the results of research based on this data. Datasets of online job ads originated by Eurostat and Cedefop, which bear the standard of official statistics, should constitute the benchmark for any other study. Data sources whose origin is not auditable by the research community should then be compared with the standard benchmark provided by the official statistical offices.
 
 ## References
 [Giabelli, A., Malandri, L., Mercorio, F., & Mezzanzanica, M. (2022). WETA: Automatic taxonomy alignment via word embeddings. Computers in Industry, 138, 103626.](https://www.sciencedirect.com/science/article/pii/S0166361522000215)
