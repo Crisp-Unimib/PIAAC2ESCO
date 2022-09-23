@@ -19,8 +19,9 @@ The dataset is made of the following variables:
 |PIAAC_QuestionDescription| PIAAC question Label |
 |ESCOskill| Associated ESCO skill |
 
-## Use cases
-
-
 ## References
 [Giabelli, A., Malandri, L., Mercorio, F., & Mezzanzanica, M. (2022). WETA: Automatic taxonomy alignment via word embeddings. Computers in Industry, 138, 103626.](https://www.sciencedirect.com/science/article/pii/S0166361522000215)
+
+
+# Related Publications
+This section contains a list of the publications that use PIAAC2ESCO.
