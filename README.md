@@ -24,4 +24,4 @@ The dataset is made of the following variables:
 
 
 # Related Publications
-Guo,Y., Langer,C., Mercorio, F., Trentini F. (2022) Skills Mismatch, Automation, and Training: Evidence from 17 European Countries Using Survey Data and Online Job Ads. EconPol Forum 23 (5), 11-15. CESifo, Munich, 2022
+[Guo,Y., Langer,C., Mercorio, F., Trentini F. (2022) Skills Mismatch, Automation, and Training: Evidence from 17 European Countries Using Survey Data and Online Job Ads. EconPol Forum 23 (5), 11-15. CESifo, Munich, 2022](https://www.cesifo.org/en/publications/2022/article-journal/skills-mismatch-automation-and-training)
