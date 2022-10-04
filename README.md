@@ -9,7 +9,7 @@ The linkage is done using AI in a framework that combines various methods: embed
 The dataset on which embeddings are trained is the representative sample of the job ads collected by Eurostat and Cedefop as part of the Web Intelligence Hub - Online Job Advertisements (WIH-OJA) project. A representative sample is provided as part of the natural language processing (NLP) dataflow and can therefore be used as a benchmark to replicate our results. The sample is made of N job ads that include title and description. The sample is designed to provide a balanced coverage of occupation, type of contract, salary, working time, education, economic activity and experience. Each cell has a size of 50 records.
 
 ## Structure of the dataset 
-The dataset is made of the following variables:
+The  PIAAC2ESCO dataset is made of the following variables:
 
 | Variable name | Description |
 |:--|:--|
