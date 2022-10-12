@@ -25,5 +25,8 @@ The  PIAAC2ESCO dataset is made of the following variables:
 ## Background
 PIAAC2ESCO was developed in the framework of the European Union's Horizon 2020 [*Pillars - Pathways to inclusive labour markets*](https://www.h2020-pillars.eu). The main objective of PILLARS is to study the development of skills and their demand, to inform policies on how to revise education and training systems to create the opportunities to acquire them.
 
+## Contacts
+If you want to have more information or to recommend works using PIAAC2ESCO to be listed on this page, please write us to francesco.trentini@unimib.it
+
 # Related Publications
 [Guo, Y., Langer, C., Mercorio, F., Trentini F. (2022) Skills Mismatch, Automation, and Training: Evidence from 17 European Countries Using Survey Data and Online Job Ads. EconPol Forum 23 (5), 11-15. CESifo, Munich, 2022](https://www.cesifo.org/en/publications/2022/article-journal/skills-mismatch-automation-and-training)
