@@ -19,8 +19,8 @@ The  PIAAC2ESCO dataset is made of the following variables:
 |PIAAC_QuestionDescription| PIAAC question Label |
 |ESCOskill| Associated ESCO skill |
 
-## References
-[Giabelli, A., Malandri, L., Mercorio, F., & Mezzanzanica, M. (2022). WETA: Automatic taxonomy alignment via word embeddings. **Computers in Industry**, 138, 103626.](https://www.sciencedirect.com/science/article/pii/S0166361522000215)
+## Citation
+
 
 ## Background
 PIAAC2ESCO was developed in the framework of the European Union's Horizon 2020 [*Pillars - Pathways to inclusive labour markets*](https://www.h2020-pillars.eu). The main objective of PILLARS is to study the development of skills and their demand, to inform policies on how to revise education and training systems to create the opportunities to acquire them.
