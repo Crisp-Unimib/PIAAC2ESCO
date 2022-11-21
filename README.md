@@ -1,5 +1,5 @@
 # PIAAC2ESCO
-## An AI-driven classification of the PIAAC Background questionnaire onto the ESCO Skills Pillar
+# An AI-driven classification of the PIAAC Background questionnaire onto the ESCO Skills Pillar
 
 ### What is PIAAC2ESCO?
 PIAAC2ESCO provides a characterisation of the [PIAAC background questionnaire](https://www.oecd-ilibrary.org/sites/53c2f904-en/index.html?itemId=/content/component/53c2f904-en) on the base of the [ESCO Skills Pillar](https://esco.ec.europa.eu/en/escopedia/skills-pillar). In practice it associates a list of ESCO skills (v1) to questions of the PIAAC background questionnaire (version 2010), based on their similarity. We use the section F to I of the PIAAC background questionnaire, from which we select the relevant questions (73 questions out of 84) and all the ESCO skills (13600 items). The validated dataset covers 21 PIAAC questions and the mapped ESCO skills, which are enriched using alternative labels.
