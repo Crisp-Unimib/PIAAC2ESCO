@@ -13,8 +13,6 @@ The  PIAAC2ESCO dataset is made of the following variables:
 
 | Variable name | Description |
 |:--|:--|
-|Isco_Level_2 | ISCO08 Sub-major group occupation Name |
-|Isco_Level_2_preferredLabel| ISCO08 Sub-major group occupation Label|
 |PIAAC_QuestionId| PIAAC question Name |
 |PIAAC_QuestionDescription| PIAAC question Label |
 |ESCOskill| Associated ESCO skill |
