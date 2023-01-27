@@ -1,7 +1,7 @@
 # PIAAC2ESCO - An AI-driven classification of the PIAAC Background questionnaire onto the ESCO Skills Pillar
 
 ### What is PIAAC2ESCO?
-PIAAC2ESCO provides a characterisation of the [PIAAC background questionnaire](https://www.oecd-ilibrary.org/sites/53c2f904-en/index.html?itemId=/content/component/53c2f904-en) on the base of the [ESCO Skills Pillar](https://esco.ec.europa.eu/en/escopedia/skills-pillar). In practice it associates a list of ESCO skills (v1) to questions of the PIAAC background questionnaire (version 2010), based on their similarity. We use the section F to I of the PIAAC background questionnaire, from which we select the relevant questions (73 questions out of 84) and all the ESCO skills (13600 items). The validated dataset covers 21 PIAAC questions and the mapped ESCO skills, which are enriched using alternative labels.
+PIAAC2ESCO provides a characterisation of the [PIAAC background questionnaire](https://www.oecd-ilibrary.org/sites/53c2f904-en/index.html?itemId=/content/component/53c2f904-en) on the base of the [ESCO Skills Pillar](https://esco.ec.europa.eu/en/escopedia/skills-pillar). In practice it associates a list of ESCO skills (v1.0.8) to questions of the PIAAC background questionnaire (version 2010), based on their similarity. We use the section F to I of the PIAAC background questionnaire, from which we select the relevant questions (73 questions out of 84) and all the ESCO skills (13600 items). The validated dataset covers 21 PIAAC questions and the mapped ESCO skills, which are enriched using alternative labels.
 
 ### How does PIAAC2ESCO work?
 The linkage is done using AI in a framework that combines various methods: embeddings, selection of the best embedding, taxonomy alignment and experts' validation. A description of the adopted methodology is available in the [Technical Annex](https://github.com/Crisp-Unimib/PIAAC2ESCO/blob/master/piaac2esco_technicalAnnex.pdf).
@@ -15,12 +15,14 @@ The  PIAAC2ESCO dataset is made of the following variables:
 |:--|:--|
 |PIAAC_QuestionId| PIAAC question Name |
 |PIAAC_QuestionDescription| PIAAC question Label |
-|ESCOskill| Associated ESCO skill |
+|ESCO_skill_conceptURI| Associated ESCO skill |
+|ESCO_skill_en| Associated ESCO skill - English label |
+|ESCO_version| ESCO version of the mapping |
 
-The file is stored in the output folder: [PIAAC2ESCO_enriched.csv](https://github.com/Crisp-Unimib/PIAAC2ESCO/blob/master/output/PIAAC2ESCO_enriched.csv)
+The file is stored in the output folder: [PIAAC2ESCO.csv](https://github.com/Crisp-Unimib/PIAAC2ESCO/blob/master/output/PIAAC2ESCO.csv)
 
 ### Contributors
-PIAAC2ESCO was developed in the framework of the European Union's Horizon 2020 [*Pillars - Pathways to inclusive labour markets*](https://www.h2020-pillars.eu). The main objective of PILLARS is to study the development of skills and their demand, to inform policies on how to revise education and training systems to create the opportunities to acquire them. The contributors are Fabio Mercorio, Mario Mezzanzanica, Filippo Pallucchini and Francesco Trentini of the [Interuniversity Research Centre on Public Services (CRISP)](https://crispresearch.it) and Yuchen Guo, Christina Langer and Simon Wiederhold of the [Katholische Universität Eichstätt-Ingolstadt (KU)](https://www.ku.de).
+PIAAC2ESCO was developed in the framework of the European Union's Horizon 2020 [*Pillars - Pathways to inclusive labour markets*](https://www.h2020-pillars.eu). The main objective of PILLARS is to study the development of skills and their demand, to inform policies on how to revise education and training systems to create the opportunities to acquire them. The contributors are Fabio Mercorio, Mario Mezzanzanica, Filippo Pallucchini and Francesco Trentini of the [Interuniversity Research Centre on Public Services (CRISP)](https://crispresearch.it) and Yuchen Guo and Christina Langer of the [Katholische Universität Eichstätt-Ingolstadt (KU)](https://www.ku.de).
 
 ### Contacts
 If you want to have more information or to report works that use PIAAC2ESCO to be listed on this page, please [write us an email](mailto:francesco.trentini@unimib.it).
